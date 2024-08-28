@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(dragon\ ball\ z.jpg);
+  background-repeat: no-repeat;
+  margin-top: 300px;
+}
+
+.quiz-container {
+  background-color: #f5ee9e;
+  text-align: center;
+  border-radius: 5px;
+  }
+
+.quiz-container h1{
+  font-size: 80px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#question{
+  font-size: 60px;
+}
+
+.visor {
+  position: relative;
+  display: inline-block;
+  }
+
+.visor img {
+  width: 180px;
+  
+}
+
+button{
+  margin: 0 15px;
+  padding: 10px;
+  background-color: #fbf304;
+  border-radius: 5px;
+  color: #1201f9;
+  font-weight: bold;
+  width: 80px;
+}
+
+button:hover{
+  background-color: #06c8f9;;
+  color: black;
+}
+#score {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  color: #fbff00;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#next-btn{
+display: none;
+}
